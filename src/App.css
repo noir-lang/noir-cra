@@ -14,14 +14,14 @@
 }
 
 .panel {
-  background-color: #1e1e1e;
+  background-color: var(--vscode-editor-background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--vscode-foreground);
 }
 
 .App-link {
@@ -95,4 +95,6 @@
 
 .Toastify__toast {
   border-radius: 0;
+  border: 1px solid var(--vscode-menu-border);
 }
+
