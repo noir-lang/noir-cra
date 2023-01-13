@@ -1,0 +1,46 @@
+{
+  "name": "noir-cra",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://noir-lang.github.io/noir-cra",
+  "dependencies": {
+    "@monaco-editor/react": "4.4.6",
+    "@noir-lang/aztec_backend": "https://github.com/kobyhallx/aztec-backend#345effc4be463dbff39a836c13683472ab0ef5f",
+    "@noir-lang/barretenberg": "2.19.0-a35cd3b",
+    "@noir-lang/noir-source-resolver": "1.0.0",
+    "@noir-lang/noir_wasm": "0.10.0-ae93368",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "9.1.1",
+    "web-vitals": "2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "prepublish": "npm run build && cp -a ./build/. docs/",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

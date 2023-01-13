@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.panel {
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.prove-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  color: var(--vscode-button-foreground);
+  background: var(--vscode-button-background);
+  border: 2px solid var(--vscode-focusBorder);
+  padding: 0.25em 0.75em;
+}
+
+.prove-btn:hover {
+  background-color: var(--vscode-button-hoverBackgroud);
+  border-color: var(--vscode-focusBorder);
+}
+
+:root {
+  --toastify-toast-min-height: 30px;
+  --toastify-toast-min-width: 100px;
+  --toast-background: var(--vscode-errorForeground);
+}
+.Toastify__toast-theme--colored.Toastify__toast--default {
+  color: var(--vscode-menu-foreground);
+  background: var(--vscode-menu-background);
+}
+
+.Toastify__toast-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0 0.35em;
+}
+
+.Toastify__toast-body svg {
+  height: 0.9rem;
+}
+.Toastify__spinner {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--info {
+  color: var(--vscode-menu-foreground);
+  background: var(--vscode-inputValidation-infoBackground);
+}
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  color: var(--vscode-menu-foreground);
+  background-color: var(--vscode-inputValidation-infoBackground);
+}
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  color: var(--vscode-menu-foreground);
+  background-color: var(--vscode-inputValidation-errorBackground);
+}
+.Toastify__toast-theme--colored.Toastify__toast--warning {
+  color: var(--vscode-menu-foreground);
+  background-color: var(--vscode-inputValidation-warningBorder);
+}
+
+.Toastify__toast {
+  border-radius: 0;
+}
