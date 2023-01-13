@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/noir-cra/static/css/main.65e1f6b9.css",
-    "main.js": "/noir-cra/static/js/main.b81b56ed.js",
+    "main.css": "/noir-cra/static/css/main.31dd8eac.css",
+    "main.js": "/noir-cra/static/js/main.b6277157.js",
     "static/js/853.d9ea96cc.chunk.js": "/noir-cra/static/js/853.d9ea96cc.chunk.js",
     "static/js/787.9757d05b.chunk.js": "/noir-cra/static/js/787.9757d05b.chunk.js",
     "static/js/401.459921b8.chunk.js": "/noir-cra/static/js/401.459921b8.chunk.js",
@@ -10,14 +10,14 @@
     "static/media/barretenberg.wasm": "/noir-cra/static/media/barretenberg.65565c7448abaf98a811.wasm",
     "static/media/worker.js": "/noir-cra/static/media/worker.b1446f56377e97ce491c.js",
     "index.html": "/noir-cra/index.html",
-    "main.65e1f6b9.css.map": "/noir-cra/static/css/main.65e1f6b9.css.map",
-    "main.b81b56ed.js.map": "/noir-cra/static/js/main.b81b56ed.js.map",
+    "main.31dd8eac.css.map": "/noir-cra/static/css/main.31dd8eac.css.map",
+    "main.b6277157.js.map": "/noir-cra/static/js/main.b6277157.js.map",
     "853.d9ea96cc.chunk.js.map": "/noir-cra/static/js/853.d9ea96cc.chunk.js.map",
     "787.9757d05b.chunk.js.map": "/noir-cra/static/js/787.9757d05b.chunk.js.map",
     "401.459921b8.chunk.js.map": "/noir-cra/static/js/401.459921b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65e1f6b9.css",
-    "static/js/main.b81b56ed.js"
+    "static/css/main.31dd8eac.css",
+    "static/js/main.b6277157.js"
   ]
 }
