@@ -71,6 +71,7 @@ function App() {
           autoClose={2500}
           transition={Flip}
           pauseOnFocusLoss={true}
+          pauseOnHover={true}
         />
       </div>
     </div>
