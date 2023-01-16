@@ -22,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "prepublish": "rm -rf ./docs && npm run build && cp -a ./build/. docs/",
+    "clean-docs": "find ./docs/** ! -name 'noir-edit.gif' -delete",
+    "prepublish": "npm run clean-docs && npm run build && cp -a ./build/. docs/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
