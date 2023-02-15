@@ -8,7 +8,7 @@
     "@noir-lang/aztec_backend": "https://github.com/kobyhallx/aztec-backend#345effc4be463dbff39a836c13683472ab0ef5f",
     "@noir-lang/barretenberg": "2.19.0-a35cd3b",
     "@noir-lang/noir-source-resolver": "1.0.0",
-    "@noir-lang/noir_wasm": "https://github.com/noir-lang/noir_wasm#5cf5e3adda8a976486aca4fb4dc74f2c99eed70a",
+    "@noir-lang/noir_wasm": "https://github.com/noir-lang/noir_wasm#0fd844abecbc9522fe6b67baad8e60add830c9de",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
