@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/noir-cra/static/css/main.31dd8eac.css",
-    "main.js": "/noir-cra/static/js/main.bc51d75d.js",
+    "main.js": "/noir-cra/static/js/main.00af3e1b.js",
     "static/js/811.e04411c4.chunk.js": "/noir-cra/static/js/811.e04411c4.chunk.js",
     "static/js/787.9757d05b.chunk.js": "/noir-cra/static/js/787.9757d05b.chunk.js",
     "static/js/401.f652cb52.chunk.js": "/noir-cra/static/js/401.f652cb52.chunk.js",
@@ -11,13 +11,13 @@
     "static/media/worker.js": "/noir-cra/static/media/worker.b1446f56377e97ce491c.js",
     "index.html": "/noir-cra/index.html",
     "main.31dd8eac.css.map": "/noir-cra/static/css/main.31dd8eac.css.map",
-    "main.bc51d75d.js.map": "/noir-cra/static/js/main.bc51d75d.js.map",
+    "main.00af3e1b.js.map": "/noir-cra/static/js/main.00af3e1b.js.map",
     "811.e04411c4.chunk.js.map": "/noir-cra/static/js/811.e04411c4.chunk.js.map",
     "787.9757d05b.chunk.js.map": "/noir-cra/static/js/787.9757d05b.chunk.js.map",
     "401.f652cb52.chunk.js.map": "/noir-cra/static/js/401.f652cb52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31dd8eac.css",
-    "static/js/main.bc51d75d.js"
+    "static/js/main.00af3e1b.js"
   ]
 }
