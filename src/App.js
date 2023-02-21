@@ -48,7 +48,11 @@ function App() {
       const verifyProofPromise = verifyProof(verifier, proof);
       await toast.promise(verifyProofPromise, {
         pending: 'Verifing proof...',
-        success: 'Proof verified 👌',
+        success: {
+          render({ verified }) {
+            return `Proof ${verified ? "verified 👌" : "NOT verified ❌"}`
+          },
+        },
         error: 'Proof verification failed 💀'
       });
 
