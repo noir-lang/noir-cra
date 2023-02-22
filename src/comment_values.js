@@ -10,13 +10,13 @@ export function getValuesFromComments(source) {
 function collectSimple(source) {
 
     const result = {};
-    const value_spec_regex = /\/\/\s*@value\s+([\w]+)\s*=\s*"(\S+)"/gm;
+    const value_spec_regex = /\/\/\s*@value\s+([\w]+)\s*=\s*(\S+)/gm;
     let match;
     while ((match = value_spec_regex.exec(source)) !== null) {
         if (match.index === value_spec_regex.lastIndex) {
             value_spec_regex.lastIndex++;
         }
-        result[match[1]] = parseInt(match[2]);
+        result[match[1]] = match[2].startsWith("\"") ? match[2].substring(1, match[2].length - 1) : parseInt(match[2]);
     }
 
     return result;

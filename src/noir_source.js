@@ -7,10 +7,10 @@ const noir_source = `// Noir Compiler version: https://github.com/noir-lang/noir
 //
 // Use "Prove" Button below (or CTRL-P | CTRL-R key combinations) to compile, prove and verify.
 //
-// @value x = "4"
-// @value y = "5"
-fn main(x : Field, y : pub Field) {
-  constrain x != y;
+// @value x = 4
+// @value y = 5
+fn main(x : u64, y : pub u64) {
+  constrain x < y;
 }`;
 
 export default noir_source;
