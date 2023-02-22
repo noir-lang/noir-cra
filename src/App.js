@@ -24,6 +24,8 @@ function App() {
 
     try {
 
+      console.log("====================================================");
+
       setCompilationButtonDisabled(true);
 
       const compiledSourcePromise = compileNoirSource(noirSource.current);
@@ -49,8 +51,8 @@ function App() {
       await toast.promise(verifyProofPromise, {
         pending: 'Verifing proof...',
         success: {
-          render({ verified }) {
-            return `Proof ${verified ? "verified 👌" : "NOT verified ❌"}`
+          render({ data }) {
+            return `Proof ${data.verified ? "verified 👌" : "NOT verified ❌"}`
           },
         },
         error: 'Proof verification failed 💀'

@@ -59,5 +59,5 @@ export async function verifyProof(verifier, proof) {
 
     console.log("Verifying Proof done, Verified ", verified);
 
-    return verified;
+    return { verified };
 }
