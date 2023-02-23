@@ -5,10 +5,10 @@
   "homepage": "https://noir-lang.github.io/noir-cra",
   "dependencies": {
     "@monaco-editor/react": "4.4.6",
-    "@noir-lang/aztec_backend": "github:kobyhallx/aztec-backend#c166c88595b3972fde2f4e3c54fa17d96f8ecfdf",
-    "@noir-lang/barretenberg": "2.19.0-a35cd3b",
-    "@noir-lang/noir_wasm": "^0.2.0-ca986a4",
+    "@noir-lang/aztec_backend": "github:kobyhallx/aztec-backend#1bcdd4bf67dad1ab977867f1d655bcab7085a518",
+    "@noir-lang/barretenberg": "github:noir-lang/barretenberg#39a1547875f941ef6640217a42d8f34972425c97",
     "@noir-lang/noir-source-resolver": "1.0.0",
+    "@noir-lang/noir_wasm": "^0.2.0-ca986a4",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
