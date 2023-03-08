@@ -1,23 +1,34 @@
 {
   "files": {
     "main.css": "/noir-cra/static/css/main.31dd8eac.css",
-    "main.js": "/noir-cra/static/js/main.e0b9c0d5.js",
+    "main.js": "/noir-cra/static/js/main.feb46c54.js",
     "static/js/811.59439911.chunk.js": "/noir-cra/static/js/811.59439911.chunk.js",
     "static/js/787.9757d05b.chunk.js": "/noir-cra/static/js/787.9757d05b.chunk.js",
     "static/js/401.6ecb76d0.chunk.js": "/noir-cra/static/js/401.6ecb76d0.chunk.js",
-    "static/media/aztec_backend_wasm_bg.wasm": "/noir-cra/static/media/aztec_backend_wasm_bg.79313ba9c6cc4ac45e36.wasm",
+    "static/media/aztec_backend_wasm_bg.wasm": "/noir-cra/static/media/aztec_backend_wasm_bg.83ff78bf0f3ba0350480.wasm",
     "static/media/barretenberg.wasm": "/noir-cra/static/media/barretenberg.977be592ee2b39815e4f.wasm",
-    "static/media/noir_wasm_bg.wasm": "/noir-cra/static/media/noir_wasm_bg.30ceeec18d731aa0b595.wasm",
+    "static/media/noir_wasm_bg.wasm": "/noir-cra/static/media/noir_wasm_bg.079eb21a45a79e0f926c.wasm",
+    "static/media/hash.nr": "/noir-cra/static/media/hash.86aa3ecd017071a76fd1.nr",
+    "static/media/sha512.nr": "/noir-cra/static/media/sha512.f5a8ce216de69a34aa32.nr",
+    "static/media/sha256.nr": "/noir-cra/static/media/sha256.710d39367c5d86888e3c.nr",
     "static/media/worker.js": "/noir-cra/static/media/worker.b1446f56377e97ce491c.js",
+    "static/media/array.nr": "/noir-cra/static/media/array.0320d60d96f1ebe060f3.nr",
+    "static/media/merkle.nr": "/noir-cra/static/media/merkle.68f3caf65af0f5f56d2c.nr",
+    "static/media/field.nr": "/noir-cra/static/media/field.aaeb399882d6fe47e906.nr",
     "index.html": "/noir-cra/index.html",
+    "static/media/main.nr": "/noir-cra/static/media/main.0ba690c703c07a17bb06.nr",
+    "static/media/lib.nr": "/noir-cra/static/media/lib.7498570246d154072cfd.nr",
+    "static/media/ecdsa_secp256k1.nr": "/noir-cra/static/media/ecdsa_secp256k1.6638d22902581718d363.nr",
+    "static/media/schnorr.nr": "/noir-cra/static/media/schnorr.658b9e2ba23091a28259.nr",
+    "static/media/scalar_mul.nr": "/noir-cra/static/media/scalar_mul.6e78d8abb57bf1d61e5f.nr",
     "main.31dd8eac.css.map": "/noir-cra/static/css/main.31dd8eac.css.map",
-    "main.e0b9c0d5.js.map": "/noir-cra/static/js/main.e0b9c0d5.js.map",
+    "main.feb46c54.js.map": "/noir-cra/static/js/main.feb46c54.js.map",
     "811.59439911.chunk.js.map": "/noir-cra/static/js/811.59439911.chunk.js.map",
     "787.9757d05b.chunk.js.map": "/noir-cra/static/js/787.9757d05b.chunk.js.map",
     "401.6ecb76d0.chunk.js.map": "/noir-cra/static/js/401.6ecb76d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31dd8eac.css",
-    "static/js/main.e0b9c0d5.js"
+    "static/js/main.feb46c54.js"
   ]
 }
