@@ -3,28 +3,53 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://noir-lang.github.io/noir-cra",
+  "main": "./dist/noir-cra.umd.js",
+  "module": "./dist/noir-cra.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/noir-cra.es.js",
+      "require": "./dist/noir-cra.umd.js"
+    }
+  },
+  "peerDependencies": {
+    "react": "16.8.0 || 17.x",
+    "react-dom": "16.8.0 || 17.x"
+  },
   "dependencies": {
     "@monaco-editor/react": "4.4.6",
     "@noir-lang/aztec_backend": "github:kobyhallx/aztec-backend#2bdf900c96af4895815253d00b9a25f7f55b1b15",
     "@noir-lang/barretenberg": "github:noir-lang/barretenberg#39a1547875f941ef6640217a42d8f34972425c97",
-    "@noir-lang/noir_wasm": "github:noir-lang/noir_wasm#62f3f4309224f480c47e77386575dcde3b28e60b",
     "@noir-lang/noir-source-resolver": "1.0.0",
+    "@noir-lang/noir_wasm": "github:noir-lang/noir_wasm#62f3f4309224f480c47e77386575dcde3b28e60b",
+    "@rollup/plugin-inject": "^5.0.3",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@types/react": "^18.0.33",
+    "buffer": "^6.0.3",
+    "node-stdlib-browser": "^1.2.0",
+    "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
+    "react": "16.8.0 || 17.x",
+    "react-dom": "16.8.0 || 17.x",
     "react-scripts": "5.0.1",
     "react-toastify": "9.1.1",
+    "vite-plugin-dts": "^2.2.0",
+    "vite-plugin-node-stdlib-browser": "^0.2.1",
     "web-vitals": "2.1.4"
   },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "1.2.0",
+    "vite": "2.8.6"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "clean-docs": "find ./docs/** ! -name 'noir-edit.gif' -delete",
-    "prepublish": "npm run clean-docs && npm run build && cp -a ./build/. docs/",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
